@@ -62,7 +62,7 @@ Pkg.activate("/path/to/15.053_2019SP")
 Pkg.instantiate()
 ```
 
-If your file is already in `"/path/to/15.053_2019SP"` (like the `Introduction to Julia-JuMP.ipynb` notebook), you can replace `"/path/to/15.053_2019SP"` by `@__DIR__` and instead run:
+If your file is already in `/path/to/15.053_2019SP` (like the `Introduction to Julia-JuMP.ipynb` notebook), you can replace `"/path/to/15.053_2019SP"` by `@__DIR__` and instead run:
 ```julia
 import Pkg
 Pkg.activate(@__DIR__)
