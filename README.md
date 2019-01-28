@@ -51,4 +51,4 @@ If all goes well, a browser window will open that looks like this:
 
 ![jupyer_notebook](figures/jupyter.png)
 
-To get started on the content portion of the tutorials, click on the first notebook entitled `Class I - An introduction to Julia`.
+To get started on the content portion of the tutorials, click on the first notebook entitled `Introduction to Julia-JuMP.ipynb`.
