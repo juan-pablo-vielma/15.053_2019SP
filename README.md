@@ -68,3 +68,13 @@ import Pkg
 Pkg.activate(@__DIR__)
 Pkg.instantiate()
 ```
+
+### Updating Course Files and Packages
+
+To get the latest version of this repsitory (files and safe versions of packages) you can:
+- If you have `git`
+installed, (after `cd`'ing to an appropriate directory) run
+```
+git pull
+```
+ - If you don't have `git` installed (i.e., the above command fails), [re-download this zip file](https://github.com/juan-pablo-vielma/15.053_2019SP/archive/master.zip). Once downloaded, unzip it to an appropriate location.
