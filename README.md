@@ -68,6 +68,7 @@ import Pkg
 Pkg.activate(@__DIR__)
 Pkg.instantiate()
 ```
+You will see this as the first code cell in all example notebooks. 
 
 ### Updating Course Files and Packages
 
