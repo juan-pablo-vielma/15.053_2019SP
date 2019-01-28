@@ -18,7 +18,7 @@ installed, (after `cd`'ing to an appropriate directory) run
 ```
 git clone https://github.com/juan-pablo-vielma/15.053_2019SP.git
 ```
- - If you don't have `git` installed (i.e., the above command fails), [download this zip file](https://github.com/lanl-ansi/tutorial-grid-science-2019/archive/master.zip). Once downloaded, unzip it to an appropriate location.
+ - If you don't have `git` installed (i.e., the above command fails), [download this zip file](https://github.com/juan-pablo-vielma/15.053_2019SP/archive/master.zip). Once downloaded, unzip it to an appropriate location.
 
 ### Open Julia
 
