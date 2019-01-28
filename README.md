@@ -16,7 +16,7 @@ Next, you need to download a copy of these materials.
  - If you have `git`
 installed, (after `cd`'ing to an appropriate directory) run
 ```
-git clone https://github.com/lanl-ansi/tutorial-grid-science-2019
+git clone https://github.com/juan-pablo-vielma/15.053_2019SP.git
 ```
  - If you don't have `git` installed (i.e., the above command fails), [download this zip file](https://github.com/lanl-ansi/tutorial-grid-science-2019/archive/master.zip). Once downloaded, unzip it to an appropriate location.
 
@@ -24,7 +24,7 @@ git clone https://github.com/lanl-ansi/tutorial-grid-science-2019
 
 Now open Julia, either by typing `julia` at a terminal, or from where ever you installed it. Once open, you should be faced with the Julia *REPL* that looks like this:
 
-![Julia REPL](repl.png)
+![Julia REPL](figures/repl.png)
 
 ### Install Jupyter
 
@@ -41,7 +41,7 @@ Pkg.add("IJulia")
 Okay, last step, let's launch a Jupyter notebook! Open a Julia REPL and then run:
 ```julia
 using IJulia
-IJulia.notebook(dir="/path/to/tutorial-grid-science-2019")
+IJulia.notebook(dir="/path/to/15.053_2019SP")
 ```
 
 Note: we've had some reports that `dir="~"` fails on some NIX machines. Use an
@@ -49,6 +49,6 @@ absolute path instead.
 
 If all goes well, a browser window will open that looks like this:
 
-![jupyer_notebook](assets/jupyter.png)
+![jupyer_notebook](figures/jupyter.png)
 
 To get started on the content portion of the tutorials, click on the first notebook entitled `Class I - An introduction to Julia`.
