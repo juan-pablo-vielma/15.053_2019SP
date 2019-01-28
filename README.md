@@ -52,3 +52,19 @@ If all goes well, a browser window will open that looks like this:
 ![jupyer_notebook](figures/jupyter.png)
 
 To get started on the content portion of the tutorials, click on the first notebook entitled `Introduction to Julia-JuMP.ipynb`.
+
+### Using the Default Course Packages
+
+The files `Project.toml` and `Manifest.toml` contain the information about versions of the default course packages that we know work well. These packages can be _activated_ by running the following code in the Julia REPL of Jupyter notebook:
+```julia
+import Pkg
+Pkg.activate("/path/to/15.053_2019SP")
+Pkg.instantiate()
+```
+
+If your file is already in `"/path/to/15.053_2019SP"` (like the `Introduction to Julia-JuMP.ipynb` notebook), you can replace `"/path/to/15.053_2019SP"` by `@__DIR__` and instead run:
+```julia
+import Pkg
+Pkg.activate(@__DIR__)
+Pkg.instantiate()
+```
