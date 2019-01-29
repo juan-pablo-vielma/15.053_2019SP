@@ -41,6 +41,7 @@ import Pkg
 ENV["JUPYTER"]=""
 Pkg.add("Conda")
 Pkg.add("IJulia")
+import Conda
 Conda.add("jupyter")
 ```
 If you see the following line type `y` and hit retrun/enter. 
