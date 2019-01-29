@@ -39,7 +39,9 @@ In the Julia REPL, run the following commands (this may take a little bit of tim
 ```julia
 import Pkg
 ENV["JUPYTER"]=""
+Pkg.add("Conda")
 Pkg.add("IJulia")
+Conda.add("jupyter")
 ```
 If you see the following line type `y` and hit retrun/enter. 
 ```julia
