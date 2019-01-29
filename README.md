@@ -41,6 +41,10 @@ import Pkg
 ENV["JUPYTER"]=""
 Pkg.add("IJulia")
 ```
+If you see the following line type `y` and hit retrun/enter. 
+```julia
+install Jupyter via Conda, y/n? [y]:
+```
 
 ### Open a Jupyter notebook
 
