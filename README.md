@@ -43,6 +43,7 @@ Pkg.add("Conda")
 Pkg.add("IJulia")
 import Conda
 Conda.add("jupyter")
+
 ```
 
 ### Open a Jupyter notebook
@@ -51,6 +52,7 @@ Okay, last step, let's launch a Jupyter notebook! Open a Julia REPL and then run
 ```julia
 using IJulia
 IJulia.notebook()
+
 ```
 
 If all goes well, a browser window will open that looks like this:
