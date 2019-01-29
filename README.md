@@ -55,7 +55,7 @@ If all goes well, a browser window will open that looks like this:
 ![jupyer_notebook](figures/jupyter_root.png)
 
 You can then navigate to the location of where you uncompressed the `15.053_2019SP` folder and you should see something like this: 
-![jupyer_notebook](figures/jupyter_root.png)
+![jupyer_notebook](figures/jupyter.png)
 
 To get started on the tutorials, click on the first notebook entitled `Introduction to Julia-JuMP.ipynb`.
 
