@@ -1,6 +1,6 @@
 # 15.053_2019SP
 
-This page includes the install and use instructions for the [Julia](https://julialang.org) and [JuMP](https://github.com/JuliaOpt/JuMP.jl) materials for 15.053. These are the recommended and supported instructions for the course as they are simple, safe and self-contaied (more advanced versions are available (here)[Advanced.md]).
+This page includes the install and use instructions for the [Julia](https://julialang.org) and [JuMP](https://github.com/JuliaOpt/JuMP.jl) materials for 15.053. These are the recommended and supported instructions for the course as they are simple, safe and self-contaied (more advanced versions are available [here](Advanced.md)).
 
 ### Install Julia
 
