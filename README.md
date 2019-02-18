@@ -65,4 +65,7 @@ You will see this as the first code cell in all example notebooks and you should
 ### Updating Course Files and Packages
 To get the latest version of this repsitory (files and safe versions of packages) simply [re-download this zip file](https://github.com/juan-pablo-vielma/15.053_2019SP/archive/master.zip), which always contains the latest versions. 
 
+**Note on JuMP v0.19:** If you downloaded the course files before February 18th and manually updated packages (e.g. by running `Pkg.update()`) you could get an error similar to this:
+![JuMP19Error](figures/jump19.png)
 
+To prevent/resolve this error simply [re-download the course zip file](https://github.com/juan-pablo-vielma/15.053_2019SP/archive/master.zip). 
