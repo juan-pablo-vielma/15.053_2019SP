@@ -40,3 +40,14 @@ If you know how to use `git` from the command prompt or terminal, you can also g
 ```
 git pull
 ```
+
+### Note on JuMP version 0.19 (Advanced version)
+
+The latest version of JuMP (v0.19 released on February 15th, 2019) includes syntax changes that are not compatible with the examples for this class. If you update packages after February 15th, 2019 (e.g. using `Pkg.update()`) you may get an error similar to this:
+![JuMP19Error](figures/jump19.png)
+
+To prevent/resolve this error you can run the following command:
+```julia
+import Pkg; Pkg.pin(Pkg.PackageSpec(name="JuMP", version="0.18"))
+```
+This will prevent the update to v0.19 of JuMP, but allow updates to other compatible packages. 
